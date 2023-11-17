@@ -1,0 +1,66 @@
+#navHome {
+  backdrop-filter: blur(25px) !important;
+  transition: background-color 0.3s ease;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+#logo {
+    height: 70px;
+    width: auto;
+    margin-right: 0.5%;
+  }
+
+  #logoNav.col-7{ 
+    height: 71px; 
+    margin-right: 9%;
+  
+  }
+  .col-xl-8 > #logoNav{ 
+    height: 71px; 
+    margin-right: 10rem;
+  
+  }
+
+
+.navbar-brand{
+  width: 17%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: white !important; 
+}
+
+.navbar a:hover {
+  color: var(--dorado) !important;
+}
+.dropdown-menu a{
+    color: var(--azulOscuro) !important;
+}
+
+
+.navbar-toggler {
+    border-color:white !important;
+  }
+   .navbar-toggler-icon {
+    background-image: url(
+  "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+
+  
+  .navbar-toggler:hover  {
+    background-color: var(--dorado);
+    
+  }
+  
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 ;
+  }
