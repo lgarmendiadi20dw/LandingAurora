@@ -3,10 +3,10 @@ const Nav=()=>{
     return(
       <nav className="navbar navbar-expand-lg" id="navHome">
       <div className="container-fluid">
-      <div class="col-xl-8 col-7" id="logoNav">
-                <a class="navbar-brand" href="index.html"><img src="img/logo.png" id="logo"/></a>
-            
-              </div>
+        <div className="col-xl-8 col-7" id="logoNav">
+          <a className="navbar-brand" href="index.html"><img src="img/logo.png" id="logoGrande" alt="Logo"/></a>
+        </div>
+    
         <button
           className="navbar-toggler"
           type="button"
@@ -18,8 +18,9 @@ const Nav=()=>{
         >
           <span className="navbar-toggler-icon"></span>
         </button>
+    
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="#">
                 Home
@@ -45,26 +46,26 @@ const Nav=()=>{
               >
                 Dropdown
               </a>
-              <ul className="dropdown-menu ">
-            <li>
-              <a className="dropdown-item" href="#">
-                Action
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-            </li>
-            <li>
-              <hr className="dropdown-divider" />
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </li>
-          </ul>
+              <ul className="dropdown-menu">
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Action
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Another action
+                  </a>
+                </li>
+                <li>
+                  <hr className="dropdown-divider" />
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -74,33 +75,34 @@ const Nav=()=>{
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                <img id="imgUser" src="img/usuario.webp" alt="User"/>
               </a>
               <ul className="dropdown-menu dropdown-menu-end">
-            <li>
-              <a className="dropdown-item" href="#">
-                Action
-              </a>
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Another action
-              </a>
-            </li>
-            <li>
-              <hr className="dropdown-divider" />
-            </li>
-            <li>
-              <a className="dropdown-item" href="#">
-                Something else here
-              </a>
-            </li>
-          </ul>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Action
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Another action
+                  </a>
+                </li>
+                <li>
+                  <hr className="dropdown-divider" />
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    
     
     );
 }

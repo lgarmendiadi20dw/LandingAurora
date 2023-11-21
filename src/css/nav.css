@@ -5,12 +5,22 @@
   top: 0;
   width: 100%;
   z-index: 1000;
+  padding: 1%;
 }
-#logo {
-    height: 70px;
-    width: auto;
-    margin-right: 0.5%;
+#imgUser{
+  height: 2rem;
+  border-radius:50%;
+    border: 2px solid white;
+  width: auto;
+}
+#imgUser:hover{
+ 
+    border: 2px solid var(--dorado);
+}
+#logoGrande {
+  width: 190%;
   }
+ 
 
   #logoNav.col-7{ 
     height: 71px; 
@@ -39,10 +49,9 @@
 .navbar a:hover {
   color: var(--dorado) !important;
 }
-.dropdown-menu a{
+.dropdown-menu a {
     color: var(--azulOscuro) !important;
 }
-
 
 .navbar-toggler {
     border-color:white !important;

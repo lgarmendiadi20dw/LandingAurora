@@ -13,14 +13,12 @@ body {
 }
 
 
-
 .carousel-caption h5{
   backdrop-filter: blur(8px) !important;
- 
   border-radius: 10px;
   color: white !important;
 }
- #carouselExampleDark {
+#carouselExampleDark {
   
   position: relative;
   width: 100%;
