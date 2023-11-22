@@ -11,27 +11,27 @@
   height: 2rem;
   border-radius:50%;
     border: 2px solid white;
-  width: auto;
+  width: 2re;
 }
+
 #imgUser:hover{
  
     border: 2px solid var(--dorado);
 }
 #logoGrande {
-  width: 190%;
+  height: 3rem;
   }
- 
+
+.bi-cart3:hover{
+  color: var(--dorado);
+}
 
   #logoNav.col-7{ 
     height: 71px; 
     margin-right: 9%;
   
   }
-  .col-xl-8 > #logoNav{ 
-    height: 71px; 
-    margin-right: 10rem;
-  
-  }
+ 
 
 
 .navbar-brand{

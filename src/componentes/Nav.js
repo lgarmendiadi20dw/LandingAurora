@@ -3,7 +3,7 @@ const Nav=()=>{
     return(
       <nav className="navbar navbar-expand-lg" id="navHome">
       <div className="container-fluid">
-        <div className="col-xl-8 col-7" id="logoNav">
+        <div className="col-md-4 col-7" id="logoNav">
           <a className="navbar-brand" href="index.html"><img src="img/logo.png" id="logoGrande" alt="Logo"/></a>
         </div>
     
@@ -21,21 +21,7 @@ const Nav=()=>{
     
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
-              </a>
-            </li>
+           
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
@@ -44,7 +30,7 @@ const Nav=()=>{
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                Servicios
               </a>
               <ul className="dropdown-menu">
                 <li>
@@ -75,6 +61,62 @@ const Nav=()=>{
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
+                Habitaciones
+              </a>
+              <ul className="dropdown-menu">
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Action
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Another action
+                  </a>
+                </li>
+                <li>
+                  <hr className="dropdown-divider" />
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link active" aria-current="page" href="#">
+                Reservas
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Ubicación
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Contactanos
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+        <ul className="navbar-nav ml-auto">
+        <li className="nav-item">
+              <a className="nav-link" href="#">
+              <i class="bi bi-cart3"></i>
+              </a>
+            </li>
+          <li className="nav-item dropdown">
+            
+              <a
+                className="nav-link "
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 <img id="imgUser" src="img/usuario.webp" alt="User"/>
               </a>
               <ul className="dropdown-menu dropdown-menu-end">
@@ -97,9 +139,7 @@ const Nav=()=>{
                   </a>
                 </li>
               </ul>
-            </li>
-          </ul>
-        </div>
+            </li></ul>
       </div>
     </nav>
     

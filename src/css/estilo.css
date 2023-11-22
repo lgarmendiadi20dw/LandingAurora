@@ -1,6 +1,7 @@
 
 @import url('colores.css');
 @import url('nav.css');
+@import url('carruselInicio.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
@@ -8,29 +9,8 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.carousel-item {
-  height: 100vh;
-}
-
-
-.carousel-caption h5{
-  backdrop-filter: blur(8px) !important;
-  border-radius: 10px;
-  color: white !important;
-}
-#carouselExampleDark {
-  
+#carouselExampleIndicators{
   position: relative;
-  width: 100%;
-  overflow: hidden;
-} 
-.carousel-dark .carousel-indicators [data-bs-target] {
-	background-color: white;
+    width: 100%;
+    overflow: hidden;
 }
-
-.carousel-dark .carousel-control-next-icon, .carousel-dark .carousel-control-prev-icon {
-	filter: invert(0%) !important;
-}
-
-
-
