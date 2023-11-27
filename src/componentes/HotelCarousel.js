@@ -8,19 +8,19 @@ return(
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="1000">
+    <div class="carousel-item elementoCarPrincipal active" data-bs-interval="1000">
       <img src="img/fachada/fachada_0.jpg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Eventos con elegancia, cenas inolvidables, relajación sublime. Tu escape de lujo en el corazón de Donosti</h5>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item elementoCarPrincipal">
       <img src="img/fachada/fachada_1.jpg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Tu refugio de lujo en el corazón de Donosti. Donde cada estancia se convierte en una experiencia única</h5>
       </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item elementoCarPrincipal">
       <img src="img/fachada/fachada_2.jpg" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h5>Tu refugio de lujo en el corazón de Donosti. Donde cada estancia se convierte en una experiencia única</h5>

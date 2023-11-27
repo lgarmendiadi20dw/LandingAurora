@@ -5,7 +5,6 @@
   top: 0;
   width: 100%;
   z-index: 1000;
-  padding: 1%;
 }
 #imgUser{
   height: 2rem;
@@ -72,4 +71,8 @@
     text-decoration: none;
     outline: 0;
     box-shadow: 0 0 0 ;
+  }
+
+  .navbar.scrolled {
+    background-color: var(--azulOscuro); 
   }

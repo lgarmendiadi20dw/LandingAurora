@@ -1,12 +1,32 @@
-import React from "react";
-const Nav=()=>{
-    return(
-      <nav className="navbar navbar-expand-lg" id="navHome">
+import React, { useState, useEffect } from 'react';
+
+const Nav = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    document.addEventListener('scroll', handleScroll);
+
+    return () => {
+      document.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  // Ajusta el valor de offset según la posición del carrusel principal
+  const offset = 1000; // Por ejemplo, 500 píxeles
+
+
+  return (
+    <nav className={`navbar navbar-expand-lg ${scrollPosition > 100 ? 'scrolled' : ''}`} id="navHome">
+     
       <div className="container-fluid">
-        <div className="col-md-4 col-7" id="logoNav">
+        <div className="col-md-4 col-8" id="logoNav">
           <a className="navbar-brand" href="index.html"><img src="img/logo.png" id="logoGrande" alt="Logo"/></a>
         </div>
-    
+   <div className="d-flex flex-row mb-3">
         <button
           className="navbar-toggler"
           type="button"
@@ -66,12 +86,12 @@ const Nav=()=>{
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                  Suite Presidencial
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
+                  Habitación Ejecutiva con Vista al Mar
                   </a>
                 </li>
                 <li>
@@ -79,7 +99,22 @@ const Nav=()=>{
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Something else here
+                  Suite Junior con Terraza Privada
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                  Habitación Temática de Lujo
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                  Suite Familiar de Dos Habitaciones
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                  Habitación de Lujo con Acceso a Club Lounge
                   </a>
                 </li>
               </ul>
@@ -102,13 +137,14 @@ const Nav=()=>{
             
           </ul>
         </div>
-        <ul className="navbar-nav ml-auto">
-        <li className="nav-item">
+        
+          <div className="nav-item">
+       
               <a className="nav-link" href="#">
               <i class="bi bi-cart3"></i>
               </a>
-            </li>
-          <li className="nav-item dropdown">
+              </div>
+          <div className="nav-item dropdown">
             
               <a
                 className="nav-link "
@@ -139,7 +175,11 @@ const Nav=()=>{
                   </a>
                 </li>
               </ul>
-            </li></ul>
+            </div>
+        </div>
+        
+
+
       </div>
     </nav>
     
