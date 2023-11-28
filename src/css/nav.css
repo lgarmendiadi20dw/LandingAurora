@@ -78,3 +78,22 @@
   .navbar.scrolled {
     background-color: var(--azulOscuro); 
   }
+
+
+
+
+  .carrito {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cantidad-carrito {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 50%;
+    font-size: 12px;
+  }

@@ -1,0 +1,9 @@
+.imgInteres{
+    height: 100%;
+}
+
+.card-title{
+    color: var(--dorado);
+
+    font-weight: bold;
+}

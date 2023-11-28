@@ -7,6 +7,8 @@ import HotelCarousel from './componentes/HotelCarousel';
 import InfoHabitaciones from './componentes/InfoHabitaciones';
 import Regalo from './componentes/Regalo';
 import Footer from './componentes/Footer';
+import Interes from './componentes/Interes';
+import Servicios from './componentes/Servicios';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <HotelCarousel/>
       <div className='container'>
         <InfoHabitaciones/>
+        <Servicios/>
+        <Interes/>
         <Regalo/>
       </div>
          

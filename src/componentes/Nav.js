@@ -154,12 +154,17 @@ const Nav = () => {
               <ul className="dropdown-menu dropdown-menu-end">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    Mi cuenta
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
+                    Mis reservas y compras
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Subscripciones
                   </a>
                 </li>
                 <li>
@@ -167,7 +172,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Something else here
+                    Cerrar sesion
                   </a>
                 </li>
               </ul>

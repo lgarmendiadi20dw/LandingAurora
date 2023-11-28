@@ -6,12 +6,9 @@ footer{
 
 }
 .footer-item a{
-    text-decoration: none;
-    color: white;
+    color: white !important; 
 }
-.footer-item a:hover{
-    color: var(--dorado) !important;
-}
+ 
 .enlaceFondoOscuro{
     color: var(--crema) !important;
 }
@@ -19,3 +16,8 @@ footer{
     padding-top: 2%;
 }
 i{margin: 1%;}
+
+
+#logoFooter{
+    width: 80%;
+}

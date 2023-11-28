@@ -4,6 +4,7 @@
 @import url('carruselInicio.css');
 @import url('footer.css');
 @import url('regalo.css');
+@import url('interes.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
@@ -21,3 +22,15 @@ h2{
   font-weight: bold;
 }
 
+.carruselHabitaciones{
+  height: 20rem;
+}
+a{
+  text-decoration: none;
+  color: var(--azulOscuro)
+}
+a:hover{
+  color: var(--dorado) !important;
+}
+
+.seccion{padding: 1%;}

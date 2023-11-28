@@ -36,8 +36,11 @@ Servicio2:  Todos los días, de 12:30 a 15:00
                   </p>
          
         </div>
-        <div class="col-12 col-lg-6 ">
-          <img src="img/escudo.png" id="escudoFooter"/>
+        <div class="col-12 col-lg-6 d-flex align-items-center justify-content-center">
+          
+            <img src="img/logo.png" id="logoFooter"/>
+          
+          
         </div>
       </div>
     </div>
