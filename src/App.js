@@ -5,6 +5,7 @@ import './css/estilo.css';
 import Nav from './componentes/Nav';
 import HotelCarousel from './componentes/HotelCarousel';
 import InfoHabitaciones from './componentes/InfoHabitaciones';
+import Regalo from './componentes/Regalo';
 import Footer from './componentes/Footer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <HotelCarousel/>
       <div className='container'>
         <InfoHabitaciones/>
+        <Regalo/>
       </div>
          
       <Footer/>

@@ -3,6 +3,7 @@
 @import url('nav.css');
 @import url('carruselInicio.css');
 @import url('footer.css');
+@import url('regalo.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
@@ -19,3 +20,4 @@ h2{
   color: var(--dorado);
   font-weight: bold;
 }
+

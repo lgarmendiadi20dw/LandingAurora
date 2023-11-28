@@ -1,0 +1,19 @@
+.card h5{
+   color: var(--dorado);
+
+  font-weight: bold;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+  box-shadow: 0px 10px 15px var(--crema) /* Sombreado */
+  }
+  .card .btn{
+    background-color: var(--grisAzulado);
+    color:white;
+  }
+  .card .btn:hover{
+    background-color: var(--dorado);
+    color:white;
+  }
