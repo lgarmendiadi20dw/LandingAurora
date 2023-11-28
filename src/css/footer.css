@@ -1,0 +1,21 @@
+footer{
+    background-color: var(--azulOscuro);
+    color: white !important;
+    text-align: justify;
+    
+
+}
+.footer-item a{
+    text-decoration: none;
+    color: white;
+}
+.footer-item a:hover{
+    color: var(--dorado) !important;
+}
+.enlaceFondoOscuro{
+    color: var(--crema) !important;
+}
+.NavFooter .container .row{
+    padding-top: 2%;
+}
+i{margin: 1%;}

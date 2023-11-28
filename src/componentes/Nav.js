@@ -55,12 +55,12 @@ const Nav = () => {
               <ul className="dropdown-menu">
                 <li>
                   <a className="dropdown-item" href="#">
-                    Action
+                    Spa
                   </a>
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Another action
+                    Gastronomia
                   </a>
                 </li>
                 <li>
@@ -68,7 +68,7 @@ const Nav = () => {
                 </li>
                 <li>
                   <a className="dropdown-item" href="#">
-                    Something else here
+                    Piscina
                   </a>
                 </li>
               </ul>
@@ -112,11 +112,7 @@ const Nav = () => {
                   Suite Familiar de Dos Habitaciones
                   </a>
                 </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                  Habitación de Lujo con Acceso a Club Lounge
-                  </a>
-                </li>
+                
               </ul>
             </li>
             <li className="nav-item">

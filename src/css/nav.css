@@ -24,7 +24,9 @@
 .bi-cart3:hover{
   color: var(--dorado);
 }
-
+.bi-cart3{
+  color: white;
+}
   #logoNav.col-7{ 
     height: 71px; 
     margin-right: 9%;

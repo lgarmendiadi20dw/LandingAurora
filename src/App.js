@@ -9,17 +9,17 @@ import Footer from './componentes/Footer';
 
 function App() {
   return (
-    <div >
+    <body >
       <Nav/>
       <HotelCarousel/>
       <div className='container'>
         <InfoHabitaciones/>
       </div>
          
+      <Footer/>
       
-      {/* <Footer/> */}
      
-    </div>
+    </body>
   );
 }
 
